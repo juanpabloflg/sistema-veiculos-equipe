@@ -18,7 +18,7 @@ public class Veiculo {
         this.ano = ano;
     }
 
-      public String getMarca(){
+    public String getMarca(){
         return marca;
     }
 
