@@ -10,34 +10,33 @@ public class Veiculo {
         this.marca = marca;
     }
 
-    public int getAno(){
+    public int getAno() {
         return ano;
     }
 
-    public void setAno(int ano){
+    public void setAno(int ano) {
         this.ano = ano;
     }
 
-    public String getMarca(){
+    public String getMarca() {
         return marca;
     }
 
-    public void setMarca(String marca){
+    public void setMarca(String marca) {
         this.marca = marca;
     }
 
-    public void acelerar(){
+    public void acelerar() {
         System.out.println("O veiculo está acelerando");
     }
 
     public void mover() {
-        System.out.println("O veiculo está movendo");
+        System.out.println("O veiculo está se movendo");
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Ano: " + ano + ", Marca: " + marca;
     }
-
 
 }
